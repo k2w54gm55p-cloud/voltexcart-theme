@@ -1,1 +1,3 @@
-# voltexcart-theme
+# VoltexCart ⚡
+Innovation Meets Everyday Lifestyle
+Premium Shopify Theme
