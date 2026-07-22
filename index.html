@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voltexcart - Innovation Meets Everyday Lifestyle</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<style>
+.hero {
+  height: 100vh;
+  background: url('{{ "hero.jpg" | asset_url }}') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-weight: 600;
+}
+
+.navbar .logo {
+  font-size: 18px;
+}
+
+.navbar .menu {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 24px;
+  }
+}
+</style>
+
+<div class="hero">
+
+  <div class="navbar">
+    <div class="logo">Voltexcart ⚡</div>
+    <div class="menu">Shop | Categories | Cart</div>
+  </div>
+
+  <h1>Innovation Meets Everyday Lifestyle</h1>
+  <p>Everything you need in one place</p>
+
+</div>
+
+</body>
+</html>
